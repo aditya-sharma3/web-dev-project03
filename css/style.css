@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500;700&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto';
+}
+
+/* navigation section */
+
+.nav-section {
+    background-color: #2b2922;
+    height: 50vh ;
+}
+nav {
+    display: flex;
+    justify-content: space-around;
+    padding: 5px 0px;
+}
+
+a {
+    padding: 8px 20px;
+    color: #9a8935;
+    border: 1px solid #9a8935;
+    background: transparent;
+    text-decoration: none;
+    border-radius: 8px;
+}
+
+.nav-link {
+    list-style-type: none;
+}
+
+.link-items {
+    display: inline;
+    margin-right: 20px;
+    cursor: pointer;
+    color: #b7b6b3;
+}
+
+.active-link {
+    color: #c6c5c2;
+}
+
+/* Hero section */
+
+.hero-container {
+    display: flex;
+    justify-content: space-around;
+    padding: 5% 10%;
+}
+
+.hero-left {
+    width: 30%;
+}
+
+.hero-right {
+    width: 40%;
+}
+
+h1 {
+    color: #f1f0ef;
+    font-size: 2.5rem;
+}
+
+p {
+    color: #b7b6b3;
+    font-size: 1.3rem;
+    text-align: justify;
+}
+
+/* image section */
+
+.image-container {
+    width: 100%;
+    height: 100vh;
+}
+
+.main-pic {
+    width: 100%;
+    height: 100%;
+}
+
+/* Button section */
+.button-section {
+    background-color: #2b2922;
+    width: 100%;
+    height: 20vh;
+}
+
+.btn-container {
+    float: right;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 20vh;
+    padding-right: 40px;
+}
+
+.previous, .next {
+    text-decoration: none;
+    display: inline-block;
+    padding: 10px 20px;
+}
+
+.previous {
+    background-color: #39372d;
+    color: #6e6531;
+}
+
+.next {
+    color: #ffffff;
+    background: transparent;
+    border-color: #ffffff;
+}  
+
+.round {
+    border-radius: 50%;
+}
+
+.btn-left {
+    /* width: 70%; */
+    padding: 44px 40px;
+    background-color: #39372d;
+}
+
+.btn-right {
+    background-color: #a08f36;
+    padding: 44px 40px;
+}
